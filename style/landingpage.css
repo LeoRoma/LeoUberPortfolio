@@ -1,0 +1,29 @@
+@font-face {
+    font-family: DrukCond;
+    src: url("../public/fonts/DrukCond-Super.ttf");
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.hero-container{
+    border: black solid;
+}
+
+.hero-name-container{
+    margin: auto;
+    border: cornflowerblue solid;
+    height: auto;
+}
+
+.hero-name{
+    text-align: center;
+    position: relative;
+    margin: auto;
+    /* margin-top: 0; */
+    border: blue solid;
+    font-family: DrukCond;
+    font-size: 36vw;
+    text-transform: uppercase;
+}
