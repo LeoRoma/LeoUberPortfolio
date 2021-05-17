@@ -9,25 +9,26 @@ body{
 
 .hero-container{
     border: black solid;
+    height: 100vh;
 }
 
 .hero-name-container{
     margin: auto;
     border: cornflowerblue solid;
-    height: auto;
+    height: 300px;
     text-align: center;
+    width: 90%;
 }
 
 .hero-name{
-    
     position: relative;
     margin: 0;
     padding: 0;
     display: inline-block;
-    /* margin-top: 0; */
+    color: white;
     border: blue solid;
     font-family: DrukCond;
-    font-size: 36vw;
+    font-size: 33.5vw;
     text-transform: uppercase;
     line-height: 0.85;
     z-index: -1;
