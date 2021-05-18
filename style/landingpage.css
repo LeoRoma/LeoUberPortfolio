@@ -1,21 +1,21 @@
-
-
-body{
-    background-color: #E5E5E5;
+.hero{
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    border: black solid;
 }
 
 .hero-container{
-    border: black solid;
-    height: 100vh;
-    padding-top: 5%;
+    margin: 0;
+    border: red solid;
+    padding: 3%;
+    box-sizing: border-box;
 }
 
 .hero-name-container{
     margin: auto;
     border: cornflowerblue solid;
-    height: 300px;
     text-align: center;
-    width: 90%;
 }
 
 .hero-name{
@@ -23,11 +23,19 @@ body{
     margin: 0;
     padding: 0;
     display: inline-block;
-    color: white;
-    border: blue solid;
+    color: #E6E5E1;
     font-family: DrukCond;
     font-size: 33.5vw;
     text-transform: uppercase;
     line-height: 0.85;
     z-index: -1;
+}
+
+.hero-info-container{
+    border: lawngreen solid;
+    display: flex;
+}
+
+.hero-info{
+    border: red solid;
 }
