@@ -1,7 +1,4 @@
-@font-face {
-    font-family: DrukCond;
-    src: url("../public/fonts/DrukCond-Super.ttf");
-}
+
 
 body{
     background-color: #E5E5E5;
@@ -10,6 +7,7 @@ body{
 .hero-container{
     border: black solid;
     height: 100vh;
+    padding-top: 5%;
 }
 
 .hero-name-container{
