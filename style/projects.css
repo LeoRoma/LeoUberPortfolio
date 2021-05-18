@@ -33,7 +33,7 @@
 path{
     stroke: black;
     fill: none;
-    stroke-width: 1;
+    stroke-width: 0.5;
 }
 
 .project-container{
@@ -43,7 +43,7 @@ path{
 }
 
 .project-title{
-    padding-left: 2%;
+    padding-left: 2.5%;
     position: relative;
     margin: 0;
     font-family: NeueMontreal;

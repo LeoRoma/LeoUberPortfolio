@@ -1,0 +1,123 @@
+.footer{
+    margin-top: 15%;
+    border: lightseagreen solid;
+}
+
+.footer-container{
+    position: relative;
+    padding: 1% 2%;
+    display: flex;
+}
+
+.copyright-container{
+    /* border: magenta solid; */
+    width: 100%;
+}
+
+.coded-in-container{
+    /* border: maroon solid; */
+    width: 100%;
+}
+
+.footer-item{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Helvetica;
+    color: #131313;
+}
+
+.cd-back-cover{
+    background: #CDCBC5;
+    border: 1px solid #7E747A;
+    box-sizing: border-box;
+    width: 264px;
+    height: 172.07px;
+    /* backdrop-filter: blur(20px);     */
+    position: absolute;
+    right: 2%;
+    bottom: 50%;
+    border-radius: 5%;
+    color: #7E747A;
+    font-family: NeueMontreal;
+    text-transform: uppercase;
+}
+
+.cd-title{
+    margin: 0;
+    display: flex;
+    border-bottom: 1px solid #7E747A;
+    height: auto;
+    width: auto;
+}
+
+.name-kanji{
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.name-kanji p{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 10%;
+    margin: 0;
+}
+
+.name-aka{
+    line-height: 15px;
+    font-size: 15px;
+    text-align: right;
+    width: 100%;
+    padding: 3% 10% 0 0;
+}
+
+.cd-body{
+    position: relative;
+    border-bottom: 1px solid #7E747A;
+    display: flex;
+}
+
+.body-web{
+    position: relative;
+    padding: 2% 7% 2% 7%;
+    border-right: 1px solid #7E747A;
+    width: 100%;
+}
+
+.body-web p{
+    /* position: absolute; */
+    /* border: blue solid; */
+    margin-top: 0;
+    line-height: 20px;
+}
+
+.ellipses-container{
+    position: absolute;
+    top: 15%;
+    right: 25%;
+}
+
+.ellipse{
+    border: 1px #7E747A solid;
+    height: 30px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: -10px;
+}
+
+.body-dev{
+    padding: 2% 5% 2% 5%;
+    /* border: 1px black solid; */
+    width: 100%;
+}
+
+
+
+/* .ellipse:nth-child() */
