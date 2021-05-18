@@ -40,6 +40,9 @@
     /* border: red solid; */
     padding: 0 1% 0 1%;
     font-size: 20px;
+    font-family: NeueMontreal;
+    font-weight: lighter;
+    line-height: 30px;
 }
 
 .hero-info:nth-child(1){
@@ -58,5 +61,5 @@
 
 .hero-info:nth-child(2) p:nth-child(1){
     /* border: blue solid; */
-    width: 55%;
+    width: 60%;
 }
