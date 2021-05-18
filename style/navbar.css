@@ -8,6 +8,11 @@
     src: url("../public/fonts/NeueMontreal-Regular.otf");
 }
 
+@font-face {
+    font-family: NeueMontrealItalic;
+    src: url("../public/fonts/NeueMontreal-Italic.otf");
+}
+
 body{
     background-color: #c5c5bf;
     margin: 0;

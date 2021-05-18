@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./style/projects.css">
     <link rel="stylesheet" href="./style/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
     <title>Leo Xia</title>
 </head>
 
@@ -34,9 +37,12 @@
     <section class="hero">
         <div class="hero-container">
             <div class="hero-name-container">
-                <h3 class="hero-name">
+                <h1 class="upper-name" data-splitting>
+                    AKA Leo Xia
+                </h1>
+                <h1 class="lower-name" data-splitting>
                     Jia Tian Xia
-                </h3>
+                </h1>
             </div>
             <div class="hero-info-container">
                 <div class="hero-info">
@@ -178,8 +184,9 @@
         </div>
 
     </footer>
-
-    <script src="src/script.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="src/hero.js"></script>
 </body>
 
 </html>
