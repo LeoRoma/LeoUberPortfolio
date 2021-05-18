@@ -1,8 +1,5 @@
 .footer{
-    border: black solid;
     margin-top: 15%;
-    /* border: lightseagreen solid; */
-    /* overflow:visible  */
 }
 
 .footer-container{
@@ -12,12 +9,10 @@
 }
 
 .copyright-container{
-    /* border: magenta solid; */
     width: 100%;
 }
 
 .coded-in-container{
-    /* border: maroon solid; */
     width: 100%;
 }
 
@@ -35,7 +30,6 @@
     box-sizing: border-box;
     width: 264px;
     height: 172.07px;
-    /* backdrop-filter: blur(20px);     */
     position: absolute;
     right: 3%;
     bottom: 40%;
@@ -83,20 +77,16 @@
     position: relative;
     border-bottom: 1px solid #7E747A;
     display: flex;
-    /* padding: 2%; */
 }
 
 .body-web{
     position: relative;
     padding: 4% 7% 4% 7%;
-    /* border: 1px solid #7E747A; */
     border-right: 1px solid #7E747A;
     width: 100%;
 }
 
 .body-web p{
-    /* position: absolute; */
-    /* border: blue solid; */
     margin-top: 0;
     line-height: 20px;
 }
@@ -131,7 +121,6 @@
     position: absolute;
     top: 15%;
     right: 25%;
-    /* border: 1px #7E747A solid; */
     width: 40px;
     height: 40px;
 }
@@ -168,11 +157,9 @@
 }
 
 .get-in-touch{
-    /* border: black solid; */
     margin: auto;
     position: relative;
     padding: 4%;
-    /* text-align: center; */
     margin-left: 2%;
     font-size: 18px;
 }
