@@ -76,7 +76,7 @@ h1:nth-child(even){
 
 .hero-info:nth-child(3){
     width: 25%;
-    line-height: 15px;
+    line-height: 30px;
 }
 
 .hero-info:nth-child(2) p:nth-child(1){
