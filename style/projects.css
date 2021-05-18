@@ -11,18 +11,16 @@
     /* border: blue solid; */
 }
 
-/* .projects-images-container{
-    position: absolute;
-} */
 
 .project-image{
     border-radius: 5%;
     position: absolute;
-    width: 25%;
-    height: 55%;
+    width: 30%;
+    height: 70%;
     z-index: 9;
     pointer-events: none;
     opacity: 0;
+    object-fit: cover;
 }
 
 .wobbly-string-container{
