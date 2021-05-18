@@ -2,19 +2,19 @@
     margin: 0;
     height: 100vh;
     box-sizing: border-box;
-    border: black solid;
+    /* border: black solid; */
 }
 
 .hero-container{
     margin: 0;
-    border: red solid;
-    padding: 3%;
+    /* border: red solid; */
+    padding: 2%;
     box-sizing: border-box;
 }
 
 .hero-name-container{
     margin: auto;
-    border: cornflowerblue solid;
+    /* border: cornflowerblue solid; */
     text-align: center;
 }
 
@@ -25,17 +25,38 @@
     display: inline-block;
     color: #E6E5E1;
     font-family: DrukCond;
-    font-size: 33.5vw;
+    font-size: 36vw;
     text-transform: uppercase;
     line-height: 0.85;
     z-index: -1;
 }
 
 .hero-info-container{
-    border: lawngreen solid;
+    /* border: lawngreen solid; */
     display: flex;
 }
 
 .hero-info{
-    border: red solid;
+    /* border: red solid; */
+    padding: 0 1% 0 1%;
+    font-size: 20px;
+}
+
+.hero-info:nth-child(1){
+    width: 25%;
+}
+
+.hero-info:nth-child(2){
+    /* border: blue solid; */
+    width: 50%;
+}
+
+.hero-info:nth-child(3){
+    width: 25%;
+    line-height: 15px;
+}
+
+.hero-info:nth-child(2) p:nth-child(1){
+    /* border: blue solid; */
+    width: 55%;
 }
