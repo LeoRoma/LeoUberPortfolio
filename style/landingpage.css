@@ -5,6 +5,7 @@
 }
 
 .hero-container{
+    position: relative;
     margin: 0;
     padding: 2%;
     box-sizing: border-box;
@@ -12,15 +13,16 @@
 }
 
 .hero-name-container{
-    position: relative;
+    /* position: absolute; */
     margin: auto;
     
     text-align: center;
     /* border: black solid; */
     box-sizing: border-box;
     overflow: hidden;
-    /* height: auto; */
-    height: 400px;
+    height: auto;
+    height: 60vh;
+    cursor: pointer;
 }
 
 h1{
