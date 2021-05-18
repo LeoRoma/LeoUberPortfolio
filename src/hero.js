@@ -1,7 +1,6 @@
-// import { gsap } from "gsap";
-// import '../node_modules/splitting/dist/splitting.css';
-// import '../node_modules/splitting/dist/splitting-cells.css';
-// import Splitting from 'splitting';
+// import "splitting/dist/splitting.css";
+// import "splitting/dist/splitting-cells.css";
+// import Splitting from "splitting";
 
 const splitting = Splitting();
 

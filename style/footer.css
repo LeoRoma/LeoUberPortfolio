@@ -1,6 +1,8 @@
 .footer{
-    margin-top: 200px;
+    border: black solid;
+    margin-top: 15%;
     /* border: lightseagreen solid; */
+    /* overflow:visible  */
 }
 
 .footer-container{

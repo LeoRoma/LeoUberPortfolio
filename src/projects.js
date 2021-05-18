@@ -16,8 +16,8 @@ function getMouseCoords(event){
 
 function followMouse(image){
     console.log(image)
-    image.style.left = mouseCoords.x + (-50) + "px";
-    image.style.top = mouseCoords.y + (-50) + "px";
+    image.style.left = mouseCoords.x + (-200) + "px";
+    image.style.top = mouseCoords.y + (-200) + "px";
 }
 
 for(let i = 0; i < projects.length; i++){

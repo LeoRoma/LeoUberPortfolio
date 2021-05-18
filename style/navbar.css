@@ -16,7 +16,7 @@
 body{
     background-color: #c5c5bf;
     margin: 0;
-    overflow:auto;
+    height: 100%;
 }
 
 .navbar{
