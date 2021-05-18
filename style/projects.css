@@ -11,6 +11,20 @@
     /* border: blue solid; */
 }
 
+/* .projects-images-container{
+    position: absolute;
+} */
+
+.project-image{
+    border-radius: 5%;
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    z-index: 9;
+    pointer-events: none;
+    opacity: 0;
+}
+
 .wobbly-string-container{
     position: relative;
     /* border: red solid; */
@@ -38,7 +52,8 @@ path{
 
 .project-container{
     position: relative;
-    height: 50px;
+    height: auto;
+    z-index: 0;
     /* border: lawngreen solid; */
 }
 
