@@ -1,28 +1,23 @@
 const toggle = document.querySelector('.toggle');
+
 const body = document.querySelector('body');
+
 const navbarItems = document.querySelector('.navbar-container');
+
 const heroNames = document.querySelectorAll('.hero-name-container h1');
 const heroInfos = document.querySelectorAll('.hero-info');
+
 const projectsTitles = document.querySelectorAll('.project-title');
+
 const footerItems = document.querySelectorAll('.footer-item');
 const textAndBorder = document.querySelector('.cd-back-cover');
-
-
-
-// #C5C8C2
-
-// Cd backcover
-
-// border lines & text
 
 const cdTitleLine = document.querySelector('.cd-title');
 const cdBodyLine = document.querySelector('.cd-body');
 const cdBodyMiddleLine = document.querySelector('.body-web');
 
-//ellipse
 const ellipses = document.querySelectorAll('.ellipse');
 
-//bullseye
 const bullseyeCenter = document.querySelector('.bullseye-center');
 const bullseyeInnerCircle = document.querySelector('.bullseye-inner-circle');
 const bullseyeOuterCircle = document.querySelector('.bullseye-outer-circle');
