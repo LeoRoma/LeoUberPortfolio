@@ -73,10 +73,13 @@ path.active{
 }
 
 .project-title.active{
-    color: #C5C8C2;
+    color: #81827D;
 }
 
 .project-title:hover{
     cursor: pointer;
     color: #131313;
+}
+.project-title:hover.active{
+    color: #C5C8C2;
 }
