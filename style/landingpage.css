@@ -35,6 +35,11 @@ h1{
 	perspective-origin: -150% 50%;
 }
 
+.hero-name-container h1.active{
+    color: #949390;
+    /* color: red; */
+}
+
 .upper-name .char{
     opacity: 0;
 }
@@ -58,6 +63,10 @@ h1:nth-child(even){
     font-family: NeueMontreal;
     font-weight: lighter;
     line-height: 30px;
+}
+
+.hero-info.active{
+    color: #949390;
 }
 
 .hero-info:nth-child(1){

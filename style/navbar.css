@@ -20,7 +20,7 @@ body{
 }
 
 body.active{
-    background-color: black;
+    background-color: #161814;
 }
 
 .navbar{
@@ -46,6 +46,10 @@ body.active{
     color: #4F5549;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+.navbar-container.active{
+    color: #C4CAC1;
 }
 
 .navbar-item{

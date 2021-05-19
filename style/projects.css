@@ -48,6 +48,10 @@ path{
     stroke-width: 0.5;
 }
 
+path.active{
+    stroke: #C8C9C2;
+}
+
 .project-container{
     position: relative;
     height: auto;
@@ -66,6 +70,10 @@ path{
     text-transform: uppercase;
     font-weight: normal;
     line-height: 50px;
+}
+
+.project-title.active{
+    color: #C5C8C2;
 }
 
 .project-title:hover{

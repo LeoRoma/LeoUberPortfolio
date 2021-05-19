@@ -24,6 +24,10 @@
     color: #131313;
 }
 
+.footer-item.active{
+    color: #C5C8C2;
+}
+
 .cd-back-cover{
     /* background: #CDCBC5; */
     border: 1px solid #7E747A;
@@ -40,12 +44,20 @@
     text-transform: uppercase;
 }
 
+.cd-back-cover.active{
+    color: #C5C8C2;
+}
+
 .cd-title{
     margin: 0;
     display: flex;
     border-bottom: 1px solid #7E747A;
     height: auto;
     width: auto;
+}
+
+.cd-title.active{
+    border-bottom: 1px solid #C5C8C2;
 }
 
 .name-kanji{
@@ -80,11 +92,19 @@
     display: flex;
 }
 
+.cd-body.active{
+    border-bottom: 1px solid #C5C8C2;
+}
+
 .body-web{
     position: relative;
     padding: 4% 7% 4% 7%;
     border-right: 1px solid #7E747A;
     width: 100%;
+}
+
+.body-web.active{
+    border-right: 1px solid #C5C8C2;
 }
 
 .body-web p{
@@ -105,6 +125,10 @@
     border-radius: 50%;
     display: inline-block;
     margin-right: -10px;
+}
+
+.ellipse.active{
+    border: 1px solid #C5C8C2;
 }
 
 .body-dev{
@@ -128,22 +152,30 @@
 
 .bullseye-outer-circle{
     position: relative;
-    border: 1px #7E747A solid;
+    border: 1px solid #7E747A;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     box-sizing: border-box;
 }
 
+.bullseye-outer-circle.active{
+    border: 1px solid #C5C8C2;
+}
+
 .bullseye-inner-circle{
     position: relative;
-    border: 1px #7E747A solid;
+    border: 1px solid #7E747A;
     width: 25px;
     height: 25px;
     border-radius: 50%;
     box-sizing: border-box;
     margin-top: 17%;
     margin-left: 16%;
+}
+
+.bullseye-inner-circle.active{
+    border: 1px solid #C5C8C2;
 }
 
 .bullseye-center{
@@ -155,6 +187,10 @@
     box-sizing: border-box;
     margin-top: 26%;
     margin-left: 27%;
+}
+
+.bullseye-center.active{
+    background-color: #C5C8C2;
 }
 
 .get-in-touch{
