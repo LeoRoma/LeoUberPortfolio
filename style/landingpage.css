@@ -13,11 +13,8 @@
 }
 
 .hero-name-container{
-    /* position: absolute; */
     margin: auto;
-    
     text-align: center;
-    /* border: black solid; */
     box-sizing: border-box;
     overflow: hidden;
     height: auto;
@@ -26,9 +23,7 @@
 }
 
 h1{
-    /* position: absolute; */
     margin: 0;
-    /* margin-bottom: 100%; */
     display: inline-block;
     color: #E6E5E1;
     font-family: DrukCond;
@@ -38,7 +33,6 @@ h1{
     transition: all 0.5s ease-in-out;
     perspective: 1000px;
 	perspective-origin: -150% 50%;
-    /* z-index: 1; */
 }
 
 .upper-name .char{

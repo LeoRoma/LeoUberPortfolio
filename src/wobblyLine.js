@@ -1,5 +1,3 @@
-// gsap.defaults({ ease: "elastic(1, 0.01)" });
-
 let svgs = document.querySelectorAll("svg");
 let paths = document.querySelectorAll("path");
 
