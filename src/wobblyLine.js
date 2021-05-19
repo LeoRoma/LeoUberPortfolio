@@ -1,8 +1,11 @@
+gsap.defaults({ ease: "elastic(1, 0.01)" });
+
 let svgs = document.querySelectorAll("svg");
 let paths = document.querySelectorAll("path");
 
 
 let connected = false;
+let snapDist = 10;
 let startY = 10;
 
 let mousePosition = { y: startY };
@@ -22,10 +25,6 @@ for (let i = 0; i < svgs.length; i++) {
         }
         update(path);
     });
-
-    svg.addEventListener('mouseout', () => {
-        gsap.to(path, {ease: "elastic(1, 0.01)", attr: {d: "M0,10 Q50,10 100,10"}})
-    })
 }
 
 function update(path) {
@@ -33,9 +32,9 @@ function update(path) {
 
     path.setAttribute("d", d);
 
-    if (Math.abs(mousePosition.y >= 15) || Math.abs(mousePosition.y <= 5) ) {
+    if (Math.abs(mousePosition.y >= 13) || Math.abs(mousePosition.y <= 7) ) {
         connected = false;
-        // gsap.to(mousePosition, { duration: 1, y: startY });
-      
+        gsap.to(mousePosition, { duration: 0.5, y: startY });
+        gsap.to(path, {ease: "elastic(1, 0.1)", attr: {d: "M0,10 Q50,10 100,10"}})
     }
 }
