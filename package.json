@@ -2,7 +2,7 @@
   "name": "LeoUberPortfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "hero.js",
   "dependencies": {
     "gsap": "^3.6.1",
     "splitting": "^1.0.6"

@@ -1,8 +1,6 @@
-  
 const projects = document.querySelectorAll('.project-container');
-console.log(projects)
 const images = document.querySelectorAll('.project-image');
-// console.log(img)
+
 
 let mouseCoords = {
     x: 0,
@@ -15,8 +13,7 @@ function getMouseCoords(event){
 }
 
 function followMouse(image){
-    console.log(image)
-    image.style.left = mouseCoords.x + (-200) + "px";
+    image.style.left = mouseCoords.x + 20 + "px";
     image.style.top = mouseCoords.y + (-200) + "px";
 }
 
@@ -24,7 +21,6 @@ for(let i = 0; i < projects.length; i++){
     const project = projects[i];
     const image = images[i];
     project.addEventListener('mouseenter', () => {
-        // console.log(image)
         image.style.opacity = "1";
     })
 

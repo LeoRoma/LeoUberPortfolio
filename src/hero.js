@@ -1,10 +1,9 @@
+// import {gsap} from 'gsap';
 // import "splitting/dist/splitting.css";
 // import "splitting/dist/splitting-cells.css";
 // import Splitting from "splitting";
 
 const splitting = Splitting();
-
-console.log("hello")
 
 const textOnHover = document.querySelector('.hero-name-container');
 
