@@ -34,9 +34,7 @@
 }
 
 .wobbly-string-container{
-    /* position: relative; */
-    /* border: red solid; */
-    height: 35px;
+    height: 40px;
 }
 
 .wobbly-string{
@@ -48,14 +46,15 @@
     margin: 0;
     /* border: black solid; */
     display: block;
-    z-index: 10;
+    /* z-index: 10; */
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 path{
     stroke: black;
     fill: none;
-    stroke-width: 0.5;
+    stroke-width: 0.7;
 }
 
 path.active{
