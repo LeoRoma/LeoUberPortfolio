@@ -18,6 +18,10 @@
     /* border: lawngreen solid; */
 }
 
+.project-container a{
+    text-decoration: none !important;
+}
+
 .project-image{
     border-radius: 5%;
     position: absolute;
