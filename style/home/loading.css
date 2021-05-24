@@ -5,16 +5,25 @@
     box-sizing: border-box;
     background-color: #c5c5bf;
     z-index: 10;
+    color: #E6E5E1;
+    font-size: 200px;
+    font-family: DrukCond;
+    text-transform: uppercase;
 }
 
 .loading-name{
     position: absolute;
-    top: 5%;
+    top: 8%;
     left: 5%;
+    line-height: 160px;
 }
+
+/* .loading-name .word{
+    
+} */
 
 .loading-percentage{
     position: absolute;
-    bottom: 5%;
+    bottom: 2%;
     right: 5%;
 }
