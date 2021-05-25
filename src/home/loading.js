@@ -25,8 +25,10 @@ function moveUp(){
     loadingPage.style.transform = "translateY(-100%)";
 }
 
-window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-}
+
 
 loading();
+window.onbeforeunload = function () {
+    body.style.display = "none";
+    window.scrollTo(0, 0);
+}
