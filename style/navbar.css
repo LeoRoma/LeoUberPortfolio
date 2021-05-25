@@ -17,6 +17,7 @@ body{
     background-color: #c5c5bf;
     margin: 0;
     height: 100%;
+    overflow: hidden;
 }
 
 body.active{
