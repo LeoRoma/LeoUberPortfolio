@@ -10,7 +10,7 @@
     font-family: DrukCond;
     text-transform: uppercase;
     transform-origin: 50% 50%;
-    transition: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
     padding: 10px;
 }
 
@@ -29,9 +29,4 @@
     right: 0;
     padding: 0 3% 0 0;
 
-}
-
-.loadingpage-container:hover{
-    transform: scaleY(50%);
-    /* transform: translateY(-100%); */
 }
