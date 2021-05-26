@@ -1,17 +1,17 @@
 @font-face {
     font-family: DrukCond;
-    src: url("../public/fonts/DrukCond-Super.ttf");
+    src: url("../fonts/DrukCond-Super.ttf");
 }
 
 @font-face {
     font-family: NeueMontreal;
-    src: url("../public/fonts/NeueMontreal-Regular.otf");
+    src: url("../fonts/NeueMontreal-Regular.otf");
 }
-
+/* 
 @font-face {
     font-family: NeueMontrealItalic;
     src: url("../public/fonts/NeueMontreal-Italic.otf");
-}
+} */
 
 body{
     background-color: #c5c5bf;

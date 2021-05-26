@@ -1,7 +1,7 @@
-// import {gsap} from 'gsap';
-// import "splitting/dist/splitting.css";
-// import "splitting/dist/splitting-cells.css";
-// import Splitting from "splitting";
+import {gsap} from 'gsap';
+import "splitting/dist/splitting.css";
+import "splitting/dist/splitting-cells.css";
+import Splitting from "splitting";
 
 const splitting = Splitting();
 
@@ -42,7 +42,7 @@ function animateCharsIn() {
 }
 
 function animateCharsOut() {
-    if ( this.animateCharsTimeline ) this.animateCharsTimeline.kill();
+    if ( animateCharsTimeline ) animateCharsTimeline.kill();
     gsap.timeline({
         defaults: {duration: 0.5, ease: 'power2', stagger:0.025}
     })

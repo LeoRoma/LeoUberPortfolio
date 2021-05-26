@@ -1,25 +1,28 @@
 {
-  "name": "LeoUberPortfolio",
+  "name": "portfoliotest",
   "version": "1.0.0",
   "description": "",
-  "main": "hero.js",
+  "main": "index.js",
   "dependencies": {
     "gsap": "^3.6.1",
+    "parcel-bundler": "^1.12.5",
     "splitting": "^1.0.6"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/home.html",
+    "prod": "parcel build --no-minify src/home.html",
+    "build": "parcel build --no-minify src/home.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LeoRoma/LeoUberPortfolio.git"
+    "url": "git+https://github.com/LeoRoma/portfoliotest.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LeoRoma/LeoUberPortfolio/issues"
+    "url": "https://github.com/LeoRoma/portfoliotest/issues"
   },
-  "homepage": "https://github.com/LeoRoma/LeoUberPortfolio#readme"
+  "homepage": "https://github.com/LeoRoma/portfoliotest#readme"
 }

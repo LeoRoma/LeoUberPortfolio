@@ -1,3 +1,5 @@
+const body = document.querySelector('body');
+
 function loading(){
     const percentage = document.querySelector('.loading-percentage');
     let counter = 0;
@@ -15,7 +17,6 @@ function loading(){
     }
 }
 
-
 function makeVisible(){
     body.style.overflow = "visible";
 }
@@ -29,6 +30,7 @@ function moveUp(){
 
 loading();
 window.onbeforeunload = function () {
+
     body.style.display = "none";
     window.scrollTo(0, 0);
 }
