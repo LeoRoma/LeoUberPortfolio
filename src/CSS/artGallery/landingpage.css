@@ -1,18 +1,44 @@
 .landingpage-container{
     border: blue solid;
     padding: 3%;
+    position: relative;
 }
 
 .landingpage-title-container{
+    position: relative;
     border: red solid;
     display: flex;
     color: #E5E6E0;
+    font-family: DrukCond;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .landingpage-title{
     border: cadetblue solid;
+    font-size: 13vw;
+    /* width: 100%; */
+}
+
+.landingpage-title h1{
+    margin: 0;
+    border: chocolate solid;
+    height: fit-content;
+    width: fit-content;
 }
 
 .landingpage-year{
+    position: absolute;
+    right: 0;
+    bottom: 0;
     border: chartreuse solid;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.landingpage-year h2{
+    /* position: absolute; */
+    margin: 0;
+    font-size: 10vw;
+
 }
