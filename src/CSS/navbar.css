@@ -29,9 +29,9 @@ body.active{
     padding: 0 3% 0 3%;
     box-sizing: border-box;
     z-index: 9;
+    /* color: #4F5549; for making the contrast with the background
     mix-blend-mode:difference;
-    filter: invert(0.5);
-    /* border: blue solid; */
+    filter: invert(19); */
 }
 
 .navbar-container{
