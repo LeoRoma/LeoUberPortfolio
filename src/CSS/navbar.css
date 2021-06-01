@@ -42,8 +42,6 @@ body.active{
     font-size: 14px;
     color: #4F5549;
     font-weight: 500;
-    /* filter: invert(0); */
-   
     text-transform: uppercase;
 }
 
@@ -54,12 +52,13 @@ body.active{
 .navbar-item{
     position: relative;
     width: 100%;
+    font-weight: 500;
 }
+
 
 .item{
     position: absolute;
     top: 0;
-    mix-blend-mode: difference;
 }
 
 .toggle{

@@ -40,5 +40,21 @@
     /* position: absolute; */
     margin: 0;
     font-size: 10vw;
+}
 
+.landingpage-image-container{
+    border: crimson solid;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.landingpage-image{
+    width: 100%;
+    border: cyan solid;
+    box-sizing: border-box;
+}
+
+.landingpage-image img{
+    width: 100%;
+    border-radius: 1%;
 }
