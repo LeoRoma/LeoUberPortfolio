@@ -1,0 +1,18 @@
+.landingpage-container{
+    border: blue solid;
+    padding: 3%;
+}
+
+.landingpage-title-container{
+    border: red solid;
+    display: flex;
+    color: #E5E6E0;
+}
+
+.landingpage-title{
+    border: cadetblue solid;
+}
+
+.landingpage-year{
+    border: chartreuse solid;
+}
