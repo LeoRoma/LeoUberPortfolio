@@ -84,16 +84,3 @@
     width: 25%;
 
 }
-
-.cat{
-    background-image: url(http://placekitten.com/900/600);
-}
-
-.test{
-    font-size: 300px;
-    color: gray;
-    mix-blend-mode: difference;
-    position: sticky;
-    top: 0;
-    z-index: 9;
-}
